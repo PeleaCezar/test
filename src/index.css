@@ -1,0 +1,329 @@
+.custom-event-editor .e-textlabel {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.custom-event-editor td {
+  padding: 7px;
+  padding-right: 16px;
+}
+
+.drag-sample-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.schedule-container {
+  padding-right: 10px;
+  width: 100%;
+}
+
+.title-container {
+  padding-bottom: 10px;
+}
+
+.treeview-external-drag #waiting {
+  height: 100%;
+  padding: 0;
+}
+
+.treeview-external-drag #waitdetails {
+  width: 95%;
+  float: left;
+  height: 100%;
+  padding: 0;
+}
+
+.e-schedule.schedule-drag-drop .e-resource-cells.e-parent-node .template-wrap {
+  padding: 3px 0px;
+}
+
+.title-text {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* custom code end*/
+
+.treeview-external-drag #waitlist {
+  width: 100%;
+  height: 50%;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  padding: 5px 0 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.treeview-external-drag #waitsubject{
+  height: 50%;
+  font-family: 'Segoe UI';
+  font-size: 10px;
+  opacity: 0.6;
+  padding-left: 10px;
+  padding-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.treeview-external-drag .e-list-text,
+.treeview-external-drag.e-rtl .e-list-text,
+.e-bigger .treeview-external-drag .e-list-text,
+.e-bigger .treeview-external-drag.e-rtl .e-list-text {
+  border: 0.5px solid #e1e7ec;
+  height: 50px;
+  line-height: 15px;
+  padding: 0 5px;
+  width: 220px;
+}
+
+.treeview-external-drag .e-list-parent,
+.treeview-external-drag.e-rtl .e-list-parent,
+.e-bigger .treeview-external-drag .e-list-parent,
+.e-bigger .treeview-external-drag.e-rtl .e-list-parent {
+  height: 100%;
+  padding: 0 2px;
+}
+
+.treeview-external-drag .e-list-item,
+.e-bigger .treeview-external-drag .e-list-item {
+  height: 100%;
+  padding: 0 0 5px 0;
+}
+
+.treeview-external-drag .e-fullrow,
+.e-bigger .treeview-external-drag .e-fullrow {
+  height: 55px;
+}
+
+.treeview-external-drag .e-list-item.e-hover > .e-fullrow,
+.treeview-external-drag .e-list-item.e-active > .e-fullrow,
+.treeview-external-drag .e-list-item.e-active.e-hover > .e-fullrow,
+.e-bigger .treeview-external-drag .e-list-item.e-hover > .e-fullrow,
+.e-bigger .treeview-external-drag .e-list-item.e-active > .e-fullrow,
+.e-bigger .treeview-external-drag .e-list-item.e-active.e-hover > .e-fullrow {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none !important;
+}
+
+.treeview-external-drag .e-text-content,
+.e-bigger .treeview-external-drag .e-text-content,
+.treeview-external-drag.e-rtl .e-text-content,
+.e-bigger .treeview-external-drag.e-rtl .e-text-content {
+  padding: 0;
+}
+
+.e-drag-item.e-treeview.treeview-external-drag,
+.e-bigger .e-drag-item.e-treeview.treeview-external-drag {
+  padding: 0 !important;
+}
+
+.e-schedule.schedule-drag-drop .e-timeline-view .e-resource-left-td,
+.e-schedule.schedule-drag-drop .e-timeline-month-view .e-resource-left-td {
+  width: 160px;
+}
+
+/* .e-schedule.schedule-drag-drop
+  .e-resource-cells.e-parent-node
+  .specialist-category {
+  padding-left: 30px;
+}
+
+.e-schedule.e-rtl.schedule-drag-drop
+  .e-resource-cells.e-parent-node
+  .specialist-category {
+  padding-right: 30px;
+}
+
+.e-schedule.schedule-drag-drop
+  .e-resource-cells.e-child-node
+  .specialist-category,
+.e-schedule.schedule-drag-drop .e-resource-cells.e-child-node .specialist-name {
+  padding: 5px;
+}
+
+.tailwind
+  .e-schedule.schedule-drag-drop
+  .e-resource-cells.e-child-node
+  .specialist-category,
+.tailwind
+  .e-schedule.schedule-drag-drop
+  .e-resource-cells.e-child-node
+  .specialist-name,
+.tailwind-dark
+  .e-schedule.schedule-drag-drop
+  .e-resource-cells.e-child-node
+  .specialist-category,
+.tailwind-dark
+  .e-schedule.schedule-drag-drop
+  .e-resource-cells.e-child-node
+  .specialist-name {
+  padding: unset !important;
+}
+
+.e-schedule.schedule-drag-drop
+  .e-resource-cells.e-parent-node
+  .specialist-name {
+  padding: 0 10px;
+}
+
+.e-schedule.schedule-drag-drop .e-resource-cells .specialist-name {
+  font-size: 13px;
+}
+
+.e-schedule.schedule-drag-drop .e-resource-cells .specialist-designation {
+  font-size: 10px;
+}
+
+.e-schedule.schedule-drag-drop .specialist-image {
+  width: 45px;
+  height: 40px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: 45px;
+} */
+
+.e-device-hover {
+  background-color: #e0e0e0 !important;
+}
+
+/* .e-schedule.schedule-drag-drop
+  .e-resource-cells.e-parent-node
+  .specialist-image {
+  display: none;
+} */
+
+@media (max-width: 550px) {
+  .drag-sample-wrapper {
+    display: block;
+  }
+  .schedule-container {
+    padding-bottom: 10px;
+  }
+  .treeview-external-drag.e-treeview,
+  .e-bigger .treeview-external-drag.e-treeview {
+    width: 225px;
+  }
+  .e-bigger .treeview-external-drag.e-treeview.e-drag-item {
+    position: relative !important;
+  }
+}
+
+.e-schedule .e-timeline-view .e-work-cells.highlight {
+  background-color: black !important;
+}
+
+/* .e-input{
+   margin-top: 16px; 
+   position: relative; 
+  padding-top: 0px;
+} */
+
+span.e-input-group-icon.e-date-icon.e-icons { 
+  display: none; 
+} 
+
+
+#subject_Error {
+top:52px !important;
+left:143px !important;
+}
+
+#class_Error {
+top:111px !important;
+left:143px !important;
+}
+#EndTime_Error {
+top: 231px !important;
+left: 109.5px !important;
+}
+
+/*modal style*/
+
+.custom-event-editor > tbody > tr {
+height: 60px;
+}
+
+
+input.e-input::selection,
+textarea.e-input::selection,
+.e-input-group input.e-input::selection,
+.e-input-group.e-control-wrapper input.e-input::selection,
+.e-float-input input::selection,
+.e-float-input.e-control-wrapper input::selection,
+.e-input-group textarea.e-input::selection,
+.e-input-group.e-control-wrapper textarea.e-input::selection,
+.e-float-input textarea::selection,
+.e-float-input.e-control-wrapper textarea::selection {
+background: #0d6efd !important;
+color: #ffffff;
+}
+
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::after,
+.e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before,
+.e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after,
+.e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input)
+.e-input-in-wrap::before,
+.e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input)
+.e-input-in-wrap::after {
+background: #0d6efd;
+}
+
+.e-datetime-wrapper .e-input-group-icon.e-icons.e-active {
+color: #0d6efd !important;
+}
+
+.e-footer-content .e-btn.e-primary.e-flat:not([DISABLED]) {
+background-color: #0d6efd !important;
+border-color: #0d6efd !important;
+}
+
+/* .e-btn.e-flat.e-primary:focus {
+box-shadow: 0 0 0 4px rgba(161, 49, 253, 0.5) !important;
+} */
+
+.e-btn.e-flat.e-primary, .e-css.e-btn.e-flat.e-primary {
+color: #fafafa;
+}
+
+.e-btn.e-flat.e-primary:hover, .e-css.e-btn.e-flat.e-primary:hover {
+color: #fafafa;
+}
+
+.e-footer-content .e-btn.e-flat:not([DISABLED]) {
+background-color: #6c757d;
+border-color: #6c757d;
+color: #fff;
+}
+.e-dialog .e-footer-content .e-btn {
+margin-left: 8px;
+}
+
+.e-input-group:not(.e-success):not(.e-warning):not(.e-error), .e-input-group.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error) {
+border-color: #ced4da;
+}
+.e-input:focus:not(.e-success):not(.e-warning):not(.e-error), .e-float-input:not(.e-success):not(.e-warning):not(.e-error):not(.e-input-group) input:focus, .e-float-input:not(.e-success):not(.e-warning):not(.e-error):not(.e-input-group) textarea:focus, .e-float-input.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-input-group) input:focus, .e-float-input.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-input-group) textarea:focus, .e-float-input:not(.e-success):not(.e-warning):not(.e-error):not(.e-input-group).e-input-focus input, .e-float-input.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-input-group).e-input-focus input {
+border-color: #0d6efd;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left) {
+border: 1px solid;
+border-width: 0 0 2px 0;
+}
+
+.e-input-group:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left), .e-input-group.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap, .e-input-group.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap, .e-float-input.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap, .e-float-input.e-control-wrapper.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap {
+border-color: rgba(0, 0, 0, 0.42);
+margin-right: 60px;
+}
+
+
+
